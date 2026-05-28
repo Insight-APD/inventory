@@ -1,0 +1,7 @@
+- name: Add Android Platform
+  run: |
+    cd frontend
+
+    if [ ! -d "android" ]; then
+      npx cap add android
+    fi
